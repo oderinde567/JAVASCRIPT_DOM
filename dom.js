@@ -51,4 +51,9 @@ const containerP = document.querySelector('.container > p');
 // console.log(containerP);
 
 // ** Pseudo-selectors
-const firstCHild = document.querySelector('li:first-child');
+const firstChild = document.querySelector('li:first-child');
+// console.log(firstChild);
+const lastChild = document.querySelector('li:last-child');
+// console.log(lastChild);
+const nthChild = document.querySelector('li:nth-child');
+console.log(nthChild);
