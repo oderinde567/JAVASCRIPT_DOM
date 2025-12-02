@@ -111,4 +111,12 @@ box.addEventListener("mouseover", function(event){
 console.log("screenX, screenY:", event.screenX, event.screenY);
 
 
+// ** Changes background color using mouse position
+const red = event.offsetX;
+const green = event.offsetY;
+const blue = (event.offsetX + event.offsetY) % 255;
+
+box.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+
+
 });             
